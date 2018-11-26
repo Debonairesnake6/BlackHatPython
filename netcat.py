@@ -140,7 +140,7 @@ def client_handler(client_socket, address):
         # Read in bytes and write to destination
         file_buffer = ''
 
-        # Kepp reading until all data processed
+        # Keep reading until all data processed
         while True:
             data = client_socket.recv(1024)
 
